@@ -1,6 +1,7 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2758
+{\rtf1\ansi\ansicpg1252\cocoartf2759
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;\f2\fswiss\fcharset0 Helvetica-Bold;
-\f3\fnil\fcharset134 PingFangSC-Regular;\f4\fnil\fcharset0 HelveticaNeue;}
+\f3\fnil\fcharset134 PingFangSC-Regular;\f4\fnil\fcharset0 HelveticaNeue;\f5\fswiss\fcharset0 ArialMT;
+}
 {\colortbl;\red255\green255\blue255;\red25\green28\blue31;\red255\green255\blue255;\red223\green33\blue121;
 \red0\green0\blue0;\red27\green146\blue169;\red89\green98\blue106;\red34\green35\blue37;\red163\green85\blue14;
 \red24\green26\blue27;}
@@ -13,7 +14,7 @@
 {\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid301\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
 {\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid401\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}}
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}}
-\margl1440\margr1440\vieww28600\viewh15200\viewkind0
+\margl1440\margr1440\vieww28600\viewh15000\viewkind0
 \deftab720
 \pard\pardeftab720\sa240\partightenfactor0
 
@@ -172,22 +173,22 @@ A\'a0
 \'97 valid code example:\
    
 \f1\fs24 \cf8 \cb3 \kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec8 type laptopSize \cf9 \strokec9 float\cf8 \cb1 \strokec8 \
+type laptopSize \cf9 float\cf8 \cb1 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
-\ls2\ilvl0\cf8 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec8 \'a0\
+\ls2\ilvl0\cf8 \cb3 \kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+\'a0\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
-\ls3\ilvl0\cf8 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	       	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec8 func (ls laptopSize) getSizeOfLaptop() \{\cb1 \
+\ls3\ilvl0\cf8 \kerning1\expnd0\expndtw0 {\listtext	       	}\expnd0\expndtw0\kerning0
+func (ls laptopSize) getSizeOfLaptop() \{\cb1 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
-\ls4\ilvl0\cf9 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0   		\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec9 return\cf8 \strokec8  ls\
+\ls4\ilvl0\cf9 \cb3 \kerning1\expnd0\expndtw0   		\expnd0\expndtw0\kerning0
+return\cf8  ls\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
-\ls5\ilvl0\cf8 \kerning1\expnd0\expndtw0 \outl0\strokewidth0      \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec8 \}\cb1 \
+\ls5\ilvl0\cf8 \kerning1\expnd0\expndtw0      \expnd0\expndtw0\kerning0
+\}\cb1 \
 \pard\pardeftab720\sa240\partightenfactor0
 
-\f0\fs48 \cf2 \outl0\strokewidth0 \
+\f0\fs48 \cf2 \
 \'97> Byte Slice , Ex: (asciitable.com)\
         String \'97> \'93Hi There!\'94\
         Byte slice \'97> []byte \'97> [72 105 32 116 104 101 114 101 33]\
@@ -208,7 +209,7 @@ A\'a0
 \
 \pard\pardeftab720\sa240\partightenfactor0
 
-\f4\fs24 \cf10 \cb3 \outl0\strokewidth0 \strokec10 The\'a0
+\f4\fs24 \cf10 \cb3 The\'a0
 \f1 go.mod
 \f4 \'a0file is designed to be human readable and machine writable. The\'a0
 \f1 go
@@ -225,14 +226,46 @@ A\'a0
 \f4 \'a0file is required for the\'a0{\field{\*\fldinst{HYPERLINK "https://go.dev/ref/mod#glos-main-module"}}{\fldrslt main module}}, and for any\'a0{\field{\*\fldinst{HYPERLINK "https://go.dev/ref/mod#go-mod-file-replace"}}{\fldrslt replacement module}}\'a0specified with a local file path. However, a module that lacks an explicit\'a0
 \f1 go.mod
 \f4 \'a0file may still be\'a0{\field{\*\fldinst{HYPERLINK "https://go.dev/ref/mod#go-mod-file-require"}}{\fldrslt required}}\'a0as a dependency, or used as a replacement specified with a module path and version; see\'a0{\field{\*\fldinst{HYPERLINK "https://go.dev/ref/mod#non-module-compat"}}{\fldrslt Compatibility with non-module repositories}}.      
-\f0\fs48 \cf2 \cb1 \outl0\strokewidth0 \
-\pard\pardeftab720\sa240\partightenfactor0
-\cf2 ;\
+\f0\fs48 \cf2 \cb1 \
+;\
 \
+\pard\pardeftab720\sa240\partightenfactor0
 
-\f2\b \ul Interface\
+\f2\b \cf2 \ul \ulc2 Interface\
+\
+\
+ProtoBuf Basics:\
+\pard\pardeftab720\sa240\partightenfactor0
 
-\f0\b0 \ulnone \
+\f0\b0 \cf2 \ulnone A sample proto file syntax:\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f5\fs24 \cf2 import \'93proto3\'94
+\f0\fs48 \
+
+\f5\fs24     message Student \{
+\fs48 \
+   
+\fs24 int id = 1;
+\fs48 \
+
+\fs24 string name = 2;\
+      string age = 3;\
+     \}
+\f0 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs48 \cf2 \
+\pard\pardeftab720\partightenfactor0
+\cf2  
+\f2\b \ul \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf2 \ulc2 \
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0 \cf2 \ulnone \
 \
    \
 \
